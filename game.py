@@ -1,30 +1,26 @@
-win_list = [1,2,3,4,5,6,7,8,9,10]
-
+win_list=[1,2,3,4,5,6,7,8,9,10]
 for i in range(10):
-  try:
-    import random
-    choices = ["stone", "paper", "scissors"]
-    user = input("Enter stone, paper, or scissors: ")
-    computer = random.choice(choices)
-    print("Computer Choice",computer)
-    if user == computer:
-        print("Your Match is Tie 🤝 ")
-        win_list[i]="Tie"
-    elif(user=="stone"and computer =="scisors")or\
-      (user=="paper" and computer =="stone")or\
-      (user=="scissor" and computer =="paper"):
-      print("🎉You Win🎉")
-      win_list[i]="Win"
-      #win_list.append("Win")
-    else:
-        print("Computer Win")
-        win_list[i]="Loss"
-       # win_list.append("Loss")
-    #print("computer choice =",computer,"\nuser choice = ",user,)
-    # win_list[i] 
-  except Exception as e:
-    print("⚠️ Error occurred:", e)
-    win_list[i] = "Invalid"
+  import random
+  choices = ["stone", "paper", "scissors"]
+  user = input("Enter stone, paper, or scissors: ")
+  computer = random.choice(choices)
+  print("Computer Choice",computer)
+  if user == computer:
+      print("Your Match is Tie 🤝 ")
+      win_list[i]="Tie"
+  elif(user=="stone"and computer =="scisors")or\
+    (user=="paper" and computer =="stone")or\
+    (user=="scissor" and computer =="paper"):
+    print("🎉You Win🎉")
+    win_list[i]="Win"
+    #win_list.append("Win")
+  else:
+      print("Computer Win")
+      win_list[i]="Loss"
+     # win_list.append("Loss")
+  #print("computer choice =",computer,"\nuser choice = ",user,)
+  # win_list[i] 
+
 
 print(win_list)
 print("Win = ",win_list.count("Win"))
