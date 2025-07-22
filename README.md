@@ -16,7 +16,7 @@ No external libraries needed.
 
 How to Play
 
-# Run the game
+## Run the game
 python stone_paper_scissors.py
 Enter your choice: stone, paper, or scissors
 The computer will randomly choose its move
