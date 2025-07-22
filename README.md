@@ -1,13 +1,14 @@
-Stone Paper Scissors Game – Python
+# Stone Paper Scissors Game – Python. 
+
 A simple command-line Stone-Paper-Scissors game implemented in Python.
 Play against the computer for 10 rounds, and get your game summary at the end!
 
-Features
-🎮 Classic Stone-Paper-Scissors Gameplay
-🤖 Computer selects random choices each round
-📊 Keeps track of Wins, Losses, and Ties
-🔁 Plays for 10 rounds with result summary
-✅ Built using Python's standard libraries only
+## Features
+ Classic Stone-Paper-Scissors Gameplay
+ Computer selects random choices each round
+ Keeps track of Wins, Losses, and Ties
+ Plays for 10 rounds with result summary
+ Built using Python's standard libraries only
 
 Requirements
 Python 3.x
@@ -42,5 +43,5 @@ Loss =  4
 If you want to play again, rerun the code.
 Disclaimer
 ⚠️ This is a beginner-friendly CLI project for learning purposes.
-⚠️ Results are based on random choices, so enjoy playing without worrying about scores!
+Results are based on random choices, so enjoy playing without worrying about scores!
 
