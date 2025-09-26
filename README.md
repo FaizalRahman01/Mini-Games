@@ -71,7 +71,8 @@ Perfect for beginners to learn Python GUI programming and basic game logic!
 python app.py
 ```
 Loss =  4
-If you want to play again, rerun the code.
+If you want to play again, rerun the code.  
+
 **Disclaimer**
 This is a beginner-friendly CLI project for learning purposes.
 Results are based on random choices, so enjoy playing without worrying about scores!
