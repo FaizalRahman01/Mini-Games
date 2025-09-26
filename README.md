@@ -73,7 +73,9 @@ python app.py
 Loss =  4
 If you want to play again, rerun the code.  
 
-**Disclaimer**
+**Disclaimer**  
+
+
 This is a beginner-friendly CLI project for learning purposes.
 Results are based on random choices, so enjoy playing without worrying about scores!
 
