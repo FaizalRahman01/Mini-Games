@@ -41,7 +41,8 @@ Win =  4
 Tie =  2
 
 # Snake Game – Python (Tkinter)
-![Snake Game Screenshot](https://raw.githubusercontent.com/FaizalRahman01/Mini-Games/main/Screenshot%202025-09-26%20163602.png)
+![Snake Game Screenshot](https://raw.githubusercontent.com/FaizalRahman01/Mini-Games/main/Screenshot%202025-09-26%20163602.png)  
+
 A simple and fun Snake game implemented in Python using the **Tkinter** library.  
 Control the snake, eat food, grow in length, and avoid collisions.  
 Perfect for beginners to learn Python GUI programming and basic game logic!
